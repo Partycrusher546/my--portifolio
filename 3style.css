@@ -1,0 +1,29 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding-right: 30px;
+}
+html,body {
+    background-image: url("assets/15 Pics of How AI Sees Global Beauty Standards In Various Countries.jpeg");
+  }
+body{
+    padding-top: 2%;
+    background-color:whitesmoke;
+}
+li :hover{
+    background-color: aliceblue;
+    padding: 5%;
+    border-radius: 30%;
+    color: blue;
+    transition: all 0.2s ease;
+}

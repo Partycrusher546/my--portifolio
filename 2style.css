@@ -1,0 +1,19 @@
+header{
+    font-size: medium;
+    background-color: blue;
+    text-align: centers;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li{padding:30% ;}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
